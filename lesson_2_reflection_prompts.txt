@@ -4,9 +4,10 @@ When I initialize a repository, a git metadata file is created in the same direc
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+I'm not sure how they are different exactly, but I would say that the staging area is the only place you can commit from and the place you can hold files temporarily as you're working with them. The staging area seems like a place that it would be fast and convenient to commit from, too. A commit would not affect the files or their commit history in the working directory.
 
 How can you use the staging area to make sure you have one commit per logical
-change?
+change? By comparing the changes I've made to the files version in working directory using a call to git diff to check on how the file has been changed.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
