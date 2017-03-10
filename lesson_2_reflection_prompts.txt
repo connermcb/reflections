@@ -10,7 +10,7 @@ How can you use the staging area to make sure you have one commit per logical
 change? By comparing the changes I've made to the files version in working directory using a call to git diff to check on how the file has been changed.
 
 What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+organized? How would branches help? I'd say when you want to experiment for example with two possible solutions to solving a coding problem. Branches could help you compare the performance and code for two possible solutions each as a branch while keeping them separate from each other and a master branch.
 
 How do the diagrams help you visualize the branch structure?
 
